@@ -1,0 +1,303 @@
+@charset "UTF-8";
+
+// Automatically injected Bower dependencies via wiredep (never manually edit this block)
+// bower:scss
+// endbower
+
+// Materialize Mixins
+// @import "components/prefixer";
+@import "../../bower_components/materialize/sass/components/mixins";
+@import "../../bower_components/materialize/sass/components/color";
+
+// Default materialize Variables;
+@import "../../bower_components/materialize/sass/components/variables";
+
+// Custom Variables
+@import "common/variables";
+
+// Load all Materialize Components
+@import "../../bower_components/materialize/sass/materialize.scss";
+
+@import "common/global";
+@import "components/buttons";
+@import "components/comments";
+@import "components/forms";
+@import "components/grid";
+@import "components/wp-classes";
+@import "layouts/header";
+@import "layouts/sidebar";
+@import "layouts/footer";
+@import "layouts/pages";
+@import "layouts/posts";
+@import "layouts/tinymce";
+
+//fonts
+// @font-face {
+//     font-family: 'RobotoBold';
+//     src: 	url('../fonts/roboto/Roboto-Bold.woff') format('woff'),
+//     		url('../fonts/roboto/Roboto-Bold.ttf') format('truetype'),
+//     		url('../fonts/roboto/Roboto-Bold.eot') format('embedded-opentype');
+//     font-weight: 700;
+// }
+
+// @font-face {
+//     font-family: 'RobotoLight';
+//     src: 	url('../fonts/roboto/Roboto-Light.woff') format('woff'),
+//     		url('../fonts/roboto/Roboto-Light.ttf') format('truetype'),
+//     		url('../fonts/roboto/Roboto-Light.eot') format('embedded-opentype');
+//     font-weight: 300;
+// }
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+//remove row margin-bottom
+.row {
+	margin-bottom: 0;
+}
+
+$fontweightbold: 700;
+$fontweightlight: 200;
+
+//headerContainter
+.headerContainter {
+	height: 553px;
+	width: 1500px;
+	background-color: #4BB1B7;
+	padding: 0px;
+	margin: 0;
+}
+
+.circleLogo {
+	height: 120px;
+	width: 120px;
+	background-color: #ffffff;
+	border-radius: 50%;
+	float: left;
+	display: inline-block;
+	margin: 40px 0 0 25px;
+	padding: 0;
+	z-index: 50;
+}
+
+.menuWords {
+	color: #ffffff;
+	// font-family: 'RobotoBold', sans-serif;
+	font-size: 33pt;
+	text-transform: uppercase;
+	display: inline-block;
+	float: right;
+	display: inline-block;
+	margin: 40px 25px 0 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.mainTitle {
+	color: #ffffff;
+	// font-family: 'RobotoBold', sans-serif;
+	font-size: 60px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 10px; 
+	font-weight: bold;
+}
+
+.mainSubTitle {
+	color: #ffffff;
+	// font-family: 'RobotoLight', sans-serif;
+	font-size: 36px;
+	text-align: center;
+	font-weight: $fontweightlight;
+}
+
+// MainContent
+.contentMain {
+	margin: 0;
+	padding: 0;
+	max-width: 1500px;
+}
+
+.bigImageOne {
+	max-width: 1500px;
+	height: 400px;
+	background-image: url('../images/banner1.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: #ffffff;
+}
+
+.contentInfoBox {
+	max-width: 1500px;
+	height: 418px;
+	background-color: #d0d0d0;
+}
+
+h3.smallTitle {
+	color: #000000;
+	font-size: 18px;
+	text-align: center;
+	font-weight: $fontweightlight;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+
+.smallTitleHr{
+	border: 0;
+    height: 2px;
+    width: 82px;
+    background: #4BB1B7;
+    margin-bottom: 70px;
+}
+
+h4.contentBoxDesc {
+	color: #000000;
+	font-size: 36px;
+	text-align: center;
+	font-weight: $fontweightlight;
+	margin: 0;
+}
+
+.contentSpace {
+	padding-top: 117px;
+}
+
+.contentSpaceTwo {
+	padding-top: 150.5px;
+}
+
+.catagories {
+	max-width: 1500px;
+	background-color: #ffffff;
+}
+
+//catagories
+.contentSectionWrap {
+	max-width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+.catOne {
+	padding-left: 50px !important;
+	padding-right: 50px !important;
+	padding-bottom: 20px !important;
+}
+
+.catDot {
+	color: #4BB1B7;
+	font-size: 75px;
+	margin-bottom: 15px;
+}
+
+.catTitle {
+	color: #000000;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.catHr {
+	border: 0;
+    height: 2px;
+    width: 82px;
+    background: #4BB1B7;
+    margin-bottom: 15px;
+}
+
+.catDesc {
+	color: #000000;
+	font-size: 16px;
+	font-weight: $fontweightlight;
+	text-align: justify;
+}
+
+.bigImageTwo {
+	max-width: 1500px;
+	height: 400px;
+	background-image: url('../images/banner2.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: #ffffff;
+}
+
+//List
+.contentListWrap {
+	max-width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-right: 10%;
+	padding-left: 10%;
+	background-color: #ffffff;
+}
+
+.listDot {
+	color: #4BB1B7;
+	font-size: 75px;
+}
+
+.listing {
+	color: #000000;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.listingLocation {
+	color: #000000;
+	font-size: 18px;
+}
+
+.listingType {
+	color: #000000;
+	font-size: 18px;
+}
+
+// footerContainter
+.footerContainerBox {
+	padding-top: 240px;
+}
+
+.footerHr{
+	border: 0;
+    height: 2px;
+    width: 972px;
+    background: #c6c8c8;
+}
+
+.footerContainter {
+	height: 1550px;
+	width: 1500px;
+	background-color: #2b2b2b;
+	padding: 0px;
+	margin: 0;
+}
+
+.footerInfo {
+	width: 300px;
+	color: #ffffff;
+	font-size: 17px;
+	font-weight: normal;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 20px 0px 0px 0px;
+}
+
+.footerTag {
+	color: #ffffff;
+	font-weight: $fontweightlight;
+	font-size: 36px;
+	padding: 0px;
+	margin-top: 145px;
+}
+
+.computerImg {
+	height: 507px;
+	width: 515px;
+	margin-top: -75px;
+}
