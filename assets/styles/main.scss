@@ -58,6 +58,8 @@ $colorGreen: #4BB1B7;
 
 body {
 	font-family: 'Roboto', sans-serif;
+	max-width: 1500px;
+	margin: 0 auto;
 }
 
 //remove row margin-bottom
@@ -232,6 +234,11 @@ h4.contentBoxDesc {
 }
 
 //List
+.smallTitleHrSpace{
+	margin-bottom: 100px;
+}
+
+
 .contentListWrap {
 	max-width: 100%;
 	padding-top: 50px;
@@ -244,6 +251,7 @@ h4.contentBoxDesc {
 .listDot {
 	color: $colorGreen;
 	font-size: 75px;
+	margin-right: 25px;
 }
 
 .listing {

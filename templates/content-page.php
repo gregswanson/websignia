@@ -150,12 +150,12 @@
 		<div class="row">
 			<div class="bigImageTwo"></div>
 		</div>
-<
+
 <!-- list -->
 	<div class="contentListWrap">
 		<div class="row">
 			<h3 class="center-text smallTitle">small title</h3>
-			<hr class="smallTitleHr">
+			<hr class="smallTitleHr smallTitleHrSpace">
 		</div>
 
 <!-- listing one -->

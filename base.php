@@ -9,6 +9,7 @@ use Roots\Sage\Wrapper;
 <html <?php language_attributes(); ?>>
   <?php get_template_part('templates/head'); ?>
   <body <?php body_class(); ?>>
+  <div class="bodyWrap">
     <!--[if IE]>
     <div class="red white-text alert-warning">
         <div class="container">
@@ -39,5 +40,6 @@ use Roots\Sage\Wrapper;
       get_template_part('templates/footer');
       wp_footer();
     ?>
+    </div>
   </body>
 </html>
