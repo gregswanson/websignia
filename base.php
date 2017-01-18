@@ -25,12 +25,13 @@ use Roots\Sage\Wrapper;
       do_action('get_header');
       get_template_part('templates/header');
     ?>
-    <main class="main">
+
+    <!-- <main class="main"> -->
         <?php
       do_action('get_content-page');
       get_template_part('templates/content-page');
     ?>
-    </main><!-- /.main -->
+   <!--  </main> --><!-- /.main -->
     
     
     <?php
@@ -38,6 +39,5 @@ use Roots\Sage\Wrapper;
       get_template_part('templates/footer');
       wp_footer();
     ?>
-  
   </body>
 </html>

@@ -1,4 +1,3 @@
-<div class="row">
   <div class="footerContainter col s12">
     <div class="row">
       <div>
@@ -21,4 +20,3 @@
       </div>
     </div>
   </div>
-</div>

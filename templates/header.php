@@ -1,4 +1,3 @@
-<div class="row">
   <div class="headerContainter col s12">
     <div class="row">
       <h2 class="menuWords right-align">menu <i class="fa fa-bars" aria-hidden="true"></i></h2>
@@ -9,5 +8,4 @@
       <h2 class="mainSubTitle">Lorem ipsum dolor sit amet, eu est <br> summo scripserit. Mei cu quod vol uptua</h2>
     </div>
   </div>
-</div>
 

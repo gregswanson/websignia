@@ -1,8 +1,10 @@
-
+<!-- image -->
 	<div class="row contentMain">
 		<div class="row">
 			<div class="bigImageOne"></div>
 		</div>
+
+<!-- first info box -->
 		<div class="row">
 			<div class="contentInfoBox">
 				<div class="contentSpace">
@@ -210,6 +212,7 @@
 
 <!-- end list -->
 
+<!-- second info box -->
 		<div class="row">
 			<div class="contentInfoBox">
 				<div class="contentSpaceTwo">
